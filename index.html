@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tempreture Converter Website</title>
+</head>
+<body>
+    
+    <center><h2 class="heading" style="margin-top: 30px;">Tempreture Converter</h2> <h6>by @ kalpesh marathe</h6></center>
+    <div class="container">
+       <form action="">
+        <div class="box">
+            <input type="text" id="input" class="input"  placeholder="Enter Tempreture In Celsius"/>
+           
+            <br>
+                <button id="button" type="button"  onclick="document.getElementById('output').value =  ((document.getElementById('input').value*(9/5))+32)">Convert</button>
+                <button id="button" type="reset" >Reset</button>
+                <br>
+           
+             <input type="text" id="output" class="input" readonly placeholder="Tempreture In Farhanite"></div> 
+             <br>
+             
+            
+
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>
